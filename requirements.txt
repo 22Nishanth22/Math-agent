@@ -1,1 +1,8 @@
 wikipedia
+tiktoken
+langchain
+langchain-text-splitters
+sentence-transformers
+langchain-huggingface
+langchain-chroma 
+chromadb
