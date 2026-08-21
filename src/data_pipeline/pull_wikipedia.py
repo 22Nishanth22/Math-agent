@@ -15,7 +15,7 @@ import json
 
 import wikipedia as wk
 wk.set_lang("en")
-wk.wikipedia.USER_AGENT = "Project (nishanthjo22@gmail.com)"
+wk.wikipedia.USER_AGENT = "Project (YOUR-MAIL-ID)"
 
 
 
@@ -45,7 +45,7 @@ def pull_corpus(output_path: str):
             "content": clean_wiki_content(full_page.content)
             })
 
-    with open(f"/home/njoghee/agentic_rag/data/raw/{output_path}.json", "w", encoding='utf-8') as f:
+    with open(f"agentic_rag/data/raw/{output_path}.json", "w", encoding='utf-8') as f:
         json.dump(corpus, f, indent=2, ensure_ascii=False)
 
     print(f"Saved {len(corpus)} articles")

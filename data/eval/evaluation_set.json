@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What is the Manhattan distance between the points (1, 2) and (4, 6)?",
+    "expected_tool": "both"
+  },
+  {
+    "question": "What is the general formula for the Taylor series of a function about a point a?",
+    "expected_tool": "retrieval"
+  },
+  {
+    "question": "What is the definition of maximum likelihood estimation in statistics?",
+    "expected_tool": "retrieval"
+  },
+  {
+    "question": "What is the definition of Manhattan distance?",
+    "expected_tool": "retrieval"
+  },
+  {
+    "question": "If a fair six-sided die is rolled, what is the probability that the outcome is even given that it is greater than 3?",
+    "expected_tool": "compute"
+  },
+  {
+    "question": "If a discrete random variable X has probability mass function P(X=0)=0.2, P(X=1)=0.5, and P(X=2)=0.3, what is the expected value E[X]?",
+    "expected_tool": "compute"
+  },
+  {
+    "question": "The central limit theorem states that the sum of n independent, identically distributed random variables with mean μ and variance σ² is approximately normally distributed with mean n μ and variance n σ². Suppose X₁,…,X₁₀ are i.i.d. with μ = 5 and σ² = 4. Using the normal approximation, what is the probability that the sum S₁₀ = X₁+…+X₁₀ is less than 48? Compute this probability with SymPy.",
+    "expected_tool": "both"
+  },
+  {
+    "question": "What is the definition of singular values in the singular value decomposition, and what are the singular values of the matrix [[3, 0], [0, 4]]?",
+    "expected_tool": "both"
+  },
+  {
+    "question": "Given the function f(x,y)=x^2 y + 3y^2, compute its Hessian matrix at the point (1,2).",
+    "expected_tool": "compute"
+  },
+  {
+    "question": "What is the third-degree Taylor polynomial of sin(x) centered at 0?",
+    "expected_tool": "compute"
+  },
+  {
+    "question": "What does the Pearson correlation coefficient measure in statistics?",
+    "expected_tool": "retrieval"
+  },
+  {
+    "question": "According to the weak law of large numbers, the variance of the sample mean of n independent Bernoulli(p) trials is p (1 - p) / n. What is this variance for n = 25 and p = 0.6?",
+    "expected_tool": "both"
+  },
+  {
+    "question": "What is the definition of Shannon entropy in information theory?",
+    "expected_tool": "retrieval"
+  },
+  {
+    "question": "What is the definition of a partial derivative?",
+    "expected_tool": "retrieval"
+  },
+  {
+    "question": "What is the Euclidean norm of the vector (3, 4)?",
+    "expected_tool": "compute"
+  },
+  {
+    "question": "What does the gradient of a scalar function represent in multivariable calculus?",
+    "expected_tool": "retrieval"
+  },
+  {
+    "question": "What is a feasible solution in mathematical optimization?",
+    "expected_tool": "retrieval"
+  },
+  {
+    "question": "Compute the singular values of the matrix [[3, 0], [0, 4]].",
+    "expected_tool": "compute"
+  },
+  {
+    "question": "What is the definition of the Hessian matrix, and what is the Hessian matrix of the function f(x,y)=x^2+3xy+y^2?",
+    "expected_tool": "both"
+  },
+  {
+    "question": "A certain disease has a prior probability (prevalence) of 0.02. A diagnostic test for the disease has a sensitivity of 0.9 and a specificity of 0.85. Using Bayes' theorem, what is the posterior probability that a person who tests positive actually has the disease?",
+    "expected_tool": "both"
+  },
+  {
+    "question": "A fair six-sided die is rolled. What is the probability that the outcome is an even number given that the outcome is greater than 3?",
+    "expected_tool": "compute"
+  },
+  {
+    "question": "What is the gradient of the function f(x, y) = 3x^2 y + 2y^3 at the point (1, -1)?",
+    "expected_tool": "both"
+  },
+  {
+    "question": "What is the definition of the Hessian matrix of a scalar function, and what is the Hessian matrix of the function f(x, y) = x**2*y + 3*x*y?",
+    "expected_tool": "both"
+  },
+  {
+    "question": "According to the central limit theorem, the sum of n independent and identically distributed random variables with mean μ and variance σ² is approximately normally distributed with mean nμ and variance nσ². If each variable has mean 3 and variance 4, what is the variance of the sum of 10 such variables?",
+    "expected_tool": "both"
+  },
+  {
+    "question": "What is the determinant of the matrix [[2, 3], [1, 4]]?",
+    "expected_tool": "compute"
+  },
+  {
+    "question": "What is the null hypothesis in statistical hypothesis testing?",
+    "expected_tool": "retrieval"
+  },
+  {
+    "question": "What is the definition of distance in mathematics?",
+    "expected_tool": "retrieval"
+  },
+  {
+    "question": "What is the Jacobian matrix in multivariable calculus?",
+    "expected_tool": "retrieval"
+  },
+  {
+    "question": "Using the chain rule, compute the derivative of the function f(x) = sin(x^2).",
+    "expected_tool": "compute"
+  },
+  {
+    "question": "What is the definition of Manhattan distance?",
+    "expected_tool": "retrieval"
+  },
+  {
+    "question": "What is the Tikhonov regularization formula for solving a linear system Ax = b, and using A = [[2, 1], [1, 3]], b = [1, 2] with regularization parameter λ = 0.1, compute the regularized solution vector x?",
+    "expected_tool": "both"
+  },
+  {
+    "question": "Suppose X₁, X₂, …, Xₙ are i.i.d. random variables with mean μ = 10 and variance σ² = 9. Using the central limit theorem, approximate the probability that the sample mean \\(\\bar{X}\\) for n = 36 exceeds 11.",
+    "expected_tool": "compute"
+  },
+  {
+    "question": "What is the characteristic polynomial of the matrix [[4, 2], [1, 3]] and what are its eigenvalues?",
+    "expected_tool": "both"
+  },
+  {
+    "question": "What is the convex conjugate (Fenchel conjugate) of the function f(x)=½·x^2, and what is its value at y = 4?",
+    "expected_tool": "both"
+  },
+  {
+    "question": "What is a probability distribution?",
+    "expected_tool": "retrieval"
+  },
+  {
+    "question": "If a random variable X follows a Bernoulli distribution with parameter p = 0.6, what is its variance?",
+    "expected_tool": "both"
+  },
+  {
+    "question": "A sample of size 16 has a mean of 20 and a standard deviation of 4. Assuming the data are normally distributed, what is the 95% confidence interval for the population mean? Use the appropriate formula for a confidence interval and compute the interval using SymPy.",
+    "expected_tool": "both"
+  },
+  {
+    "question": "If a fair six-sided die is rolled once, what is the probability of obtaining an even number?",
+    "expected_tool": "compute"
+  },
+  {
+    "question": "What is a linear transformation in linear algebra?",
+    "expected_tool": "retrieval"
+  },
+  {
+    "question": "What is the definition of a vector space?",
+    "expected_tool": "retrieval"
+  },
+  {
+    "question": "Given that P(A) = 0.4, P(B | A) = 0.6, and P(B | ¬A) = 0.2, what is the probability P(A | B) according to Bayes' theorem?",
+    "expected_tool": "both"
+  },
+  {
+    "question": "What is Bayes' theorem in the context of Bayesian inference?",
+    "expected_tool": "retrieval"
+  },
+  {
+    "question": "What is the definition of a norm on a vector space?",
+    "expected_tool": "retrieval"
+  },
+  {
+    "question": "Given the data points (1, 2), (2, 3), and (4, 5), what is the slope (β₁) of the simple linear regression line y = β₀ + β₁·x?",
+    "expected_tool": "compute"
+  },
+  {
+    "question": "Compute the Jacobian matrix of the function \\(\\mathbf{f}(x, y) = (x^2 y, \\sin(xy))\\).",
+    "expected_tool": "compute"
+  },
+  {
+    "question": "What is the definition of a maximum likelihood estimator in statistical estimation?",
+    "expected_tool": "retrieval"
+  },
+  {
+    "question": "Compute the singular values of the matrix \\(\\begin{pmatrix}3 & 0 \\\\ 0 & 4\\end{pmatrix}\\).",
+    "expected_tool": "compute"
+  },
+  {
+    "question": "What is Bayes' theorem in the context of Bayesian inference?",
+    "expected_tool": "retrieval"
+  },
+  {
+    "question": "Given a sample mean of 50, a sample standard deviation of 8, and a sample size of 25, what is the 95% confidence interval for the population mean assuming a normal distribution?",
+    "expected_tool": "compute"
+  },
+  {
+    "question": "What is the sigmoid (logistic) function used for in logistic regression?",
+    "expected_tool": "retrieval"
+  }
+]
